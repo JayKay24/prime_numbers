@@ -4,6 +4,8 @@ def generate_prime_nums(upper_limit):
     """
     if type(upper_limit) is not int:
         raise TypeError("The Upper limit should be an integer.")
+    elif upper_limit < 0:
+        raise ValueError("The Upper limit should be an integer.")
     else:
         primes = []
         for item in range(2, upper_limit+1):
