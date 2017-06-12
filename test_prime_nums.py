@@ -1,5 +1,6 @@
 import unittest
-from prime_nums import generate
+
+from prime_nums import generate_prime_nums
 
 class TestPrimeNumbers(unittest.TestCase):
     def setUp(self):
