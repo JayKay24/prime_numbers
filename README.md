@@ -1,1 +1,2 @@
+[![Build Status](https://travis-ci.org/JayKay24/prime_numbers.svg?branch=master)](https://travis-ci.org/JayKay24/prime_numbers)
 # This function generates a list of prime numbers using asymptotic notation and returns it.
